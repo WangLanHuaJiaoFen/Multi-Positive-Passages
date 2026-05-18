@@ -22,7 +22,8 @@ Datasets is coming soon...
 Our paper presents a systematic study of multi-positive optimization objectives for dense retrieval, unifying representative listwise and pairwise losses under a contrastive learning framework. Through theoretical analysis and extensive experiments on NQ, MS MARCO, and BEIR, we investigate how different objectives leverage multiple positive passages and demonstrate that LSEPair achieves strong robustness and retrieval performance across diverse supervision settings.
 
 ## 🚀Quick Start
-0. Based on the v1 branch of the [Tevatron](https://github.com/texttron/tevatron/tree/tevatron-v1) ,the implementation of multi-positive loss functions is provided in [src/tevatron/modeling/encoder.py](https://github.com/WangLanHuaJiaoFen/Multi-Positive-Passages/blob/main/src/tevatron/modeling/encoder.py).
+
+Based on the v1 branch of the [Tevatron](https://github.com/texttron/tevatron/tree/tevatron-v1) ,the implementation of multi-positive loss functions is provided in [src/tevatron/modeling/encoder.py](https://github.com/WangLanHuaJiaoFen/Multi-Positive-Passages/blob/main/src/tevatron/modeling/encoder.py).
 
 ### 1. Installation
 ```bash
