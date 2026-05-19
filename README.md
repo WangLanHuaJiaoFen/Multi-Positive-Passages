@@ -37,10 +37,8 @@ conda activate multi-pos
 pip install -e .
 ```
 
-### 2. Training and Evaluating on MS-MARCO
-See [examples/]().
-
-The examples is coming soon...
+### 2. Training and Evaluating
+See [examples/](https://github.com/WangLanHuaJiaoFen/Multi-Positive-Passages/blob/main/examples).
 
 ## 📧Contact
 For any questions or feedback, please reach out to us @ wangbenben@stu.xidian.edu.cn
