@@ -17,7 +17,7 @@ please give us a star ⭐ on GitHub</h5>
 ## Overview
 This repository contains the code used in our paper: "Training Dense Retrievers with Multiple Positive Passages". 
 
-Datasets is coming soon...
+MSMARCO annotation dataset is now released in [Wanglanhuajiaofen/MSMARCO-annotation](https://huggingface.co/datasets/Wanglanhuajiaofen/MSMARCO-annotation)
 
 Our paper presents a systematic study of multi-positive optimization objectives for dense retrieval, unifying representative listwise and pairwise losses under a contrastive learning framework. Through theoretical analysis and extensive experiments on NQ, MS MARCO, and BEIR, we investigate how different objectives leverage multiple positive passages and demonstrate that LSEPair achieves strong robustness and retrieval performance across diverse supervision settings.
 
@@ -43,8 +43,17 @@ See [examples/](https://github.com/WangLanHuaJiaoFen/Multi-Positive-Passages/blo
 ## 📧Contact
 For any questions or feedback, please reach out to us @ wangbenben@stu.xidian.edu.cn
 
-## Citation
-coming soon...
-
+## 📄Citation
+If you find our work interesting and useful, please cite our work.
+```bibtex
+@inproceedings{
+rong2026multipositive, 
+title={Training Dense Retrievers with Multiple Positive Passages},
+author={Anonymous},
+booktitle={32nd SIGKDD Conference on Knowledge Discovery and Data Mining, 2026 - Research Track (Second Cycle Deadline)},
+year={2026},
+url={https://openreview.net/forum?id=DQREHXnE2R}
+}
+```
 ## 📜 License
 This project is released under the [Apache-2.0 License](http://www.apache.org/licenses/LICENSE-2.0).

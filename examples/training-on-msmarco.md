@@ -3,11 +3,13 @@ In this doc, we show the steps to train dense retriever on MS MARCO passage usin
 
 ## ⚠⚠⚠ Notice
 
-Remeber to change the code of loading dataset in [src/tevatron/datasets/dataset.py](https://github.com/WangLanHuaJiaoFen/Multi-Positive-Passages/blob/main/src/tevatron/datasets/dataset.py) to adapt your environment.
-## Training
-Noting that our datasets can be found xxx.
+Remember to adjust the dataset loading code in [src/tevatron/datasets/dataset.py](https://github.com/WangLanHuaJiaoFen/Multi-Positive-Passages/blob/main/src/tevatron/datasets/dataset.py) to fit your environment.
 
-Refer to [src/tevatron/modeling/encoder.py](https://github.com/WangLanHuaJiaoFen/Multi-Positive-Passages/blob/main/src/tevatron/modeling/encoder.py) and [src/tevatron/arguments.py](https://github.com/WangLanHuaJiaoFen/Multi-Positive-Passages/blob/main/src/tevatron/arguments.py) to find how to use other loss.
+Besides, we use `load_from_disk` for locally saved datasets in the loading script instead of the universal `load_dataset` call, which allows faster loading from disk. This means you will need to modify the script to match your own dataset paths and storage format.
+## Training
+Noting that our datasets can be found [Wanglanhuajiaofen/MSMARCO-annotation](https://huggingface.co/datasets/Wanglanhuajiaofen/MSMARCO-annotation).
+
+Refer to [src/tevatron/modeling/encoder.py](https://github.com/WangLanHuaJiaoFen/Multi-Positive-Passages/blob/main/src/tevatron/modeling/encoder.py) and [src/tevatron/arguments.py](https://github.com/WangLanHuaJiaoFen/Multi-Positive-Passages/blob/main/src/tevatron/arguments.py) to find how to use other losses.
 ```bash
 nohup torchrun --nproc_per_node=2 -m tevatron.driver.train \
 --output_dir your-output-dir \
