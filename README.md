@@ -7,6 +7,7 @@ please give us a star ⭐ on GitHub</h5>
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2602.12727)
 [![Github](https://img.shields.io/badge/github-repo-blue?logo=github
 )](https://github.com/WangLanHuaJiaoFen/Multi-Positive-Passages)
+[![DOI](https://zenodo.org/badge/1245319855.svg)](https://doi.org/10.5281/zenodo.20323735)
 </div>
 
 ## 🔈News
